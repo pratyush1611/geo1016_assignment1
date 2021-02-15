@@ -1,0 +1,13 @@
+prefix=C:/Users/simon/Desktop/Stuff/1. TU Delft/2. Semester/2. GEO1016 Photogremmetry and 3D Computer Vision/1. Assignment/A1_Calibration_Code/out/install/x64-Debug (default)
+exec_prefix=${prefix}
+includedir=C:/Users/simon/Desktop/Stuff/1. TU Delft/2. Semester/2. GEO1016 Photogremmetry and 3D Computer Vision/1. Assignment/A1_Calibration_Code/out/install/x64-Debug (default)/include
+libdir=C:/Users/simon/Desktop/Stuff/1. TU Delft/2. Semester/2. GEO1016 Photogremmetry and 3D Computer Vision/1. Assignment/A1_Calibration_Code/out/install/x64-Debug (default)/lib
+
+Name: GLFW
+Description: A multi-platform library for OpenGL, window and input
+Version: 3.4.0
+URL: https://www.glfw.org/
+Requires.private: 
+Libs: -L${libdir} -lglfw3
+Libs.private:  -lgdi32
+Cflags: -I${includedir}

@@ -1,0 +1,375 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						6,
+						11
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "3rd_party",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						5
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "3rd_party"
+				},
+				{
+					"build" : "3rd_party/glew",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "3rd_party/glew",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "3rd_party/glfw",
+					"childIndexes" : 
+					[
+						4
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "3rd_party/glfw"
+				},
+				{
+					"build" : "3rd_party/glfw/src",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "3rd_party/glfw/src",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "3rd_party/glog",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "3rd_party/glog",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "easy3d",
+					"childIndexes" : 
+					[
+						7,
+						8,
+						9,
+						10
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "easy3d"
+				},
+				{
+					"build" : "easy3d/core",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 4,
+					"source" : "easy3d/core",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "easy3d/fileio",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 5,
+					"source" : "easy3d/fileio",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "easy3d/util",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 6,
+					"source" : "easy3d/util",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "easy3d/viewer",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 7,
+					"source" : "easy3d/viewer",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "Calibration",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 8,
+					"source" : "Calibration",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						6
+					],
+					"name" : "A1_Calibration_Code"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "glew",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3,
+						4
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "glog",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "core",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "fileio",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "util",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "viewer",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "Calibration",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 11,
+					"id" : "Calibration::@e44789d5db144eb0c9e1",
+					"jsonFile" : "target-Calibration-Debug-521527a351ad89a2920a.json",
+					"name" : "Calibration",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "core::@cb35a92cddfea1372b37",
+					"jsonFile" : "target-core-Debug-a2c27ece4198806e6ba2.json",
+					"name" : "core",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "fileio::@1ac0250c1f979f6df208",
+					"jsonFile" : "target-fileio-Debug-c99caeb325366da7bad4.json",
+					"name" : "fileio",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "glew::@3782b4e7c4f9d2ba2c57",
+					"jsonFile" : "target-glew-Debug-fc6e9197029767491690.json",
+					"name" : "glew",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "glfw::@82eb073f23ca4a565ec2",
+					"jsonFile" : "target-glfw-Debug-807bb711cb942ebb1f7a.json",
+					"name" : "glfw",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "glog::@d3cd30be08f891a1b326",
+					"jsonFile" : "target-glog-Debug-8faedf4506904f40e9fa.json",
+					"name" : "glog",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "util::@a5cd75459df24341c131",
+					"jsonFile" : "target-util-Debug-89cdd8164910e5d54ef6.json",
+					"name" : "util",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "viewer::@e94df83b7addc850682d",
+					"jsonFile" : "target-viewer-Debug-3d380cd95610ff5275a5.json",
+					"name" : "viewer",
+					"projectIndex" : 7
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/simon/Desktop/Stuff/1. TU Delft/2. Semester/2. GEO1016 Photogremmetry and 3D Computer Vision/1. Assignment/A1_Calibration_Code/out/build/x64-Debug (default)",
+		"source" : "C:/Users/simon/Desktop/Stuff/1. TU Delft/2. Semester/2. GEO1016 Photogremmetry and 3D Computer Vision/1. Assignment/A1_Calibration_Code"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}
