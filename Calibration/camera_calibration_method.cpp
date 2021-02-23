@@ -55,6 +55,11 @@ bool CameraCalibration::calibration(
     std::cout << "TODO: I am going to implement calibration() ..." << std::endl;
 
     // TODO: check if input is valid (e.g., number of correspondences >= 6, sizes of 2D/3D points don't match)
+    if (points_3d < 6) 
+    {
+        std::cout "number of points is less than requirements. points must be more than or equal to 6" << std::endl
+    }
+        
 
     // TODO: construct the P matrix (so P * m = 0).
 
